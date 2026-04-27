@@ -1,0 +1,22 @@
+{
+  "name": "Research environment",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "features": {
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {},
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {},
+    "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0": {},
+    "ghcr.io/guiyomh/features/just:0": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  },
+
+  "onCreateCommand": "bash .devcontainer/setup.sh",
+
+  "forwardPorts": [8888]
+}
