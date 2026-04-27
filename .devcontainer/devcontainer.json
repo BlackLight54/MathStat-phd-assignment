@@ -1,13 +1,7 @@
 {
   "name": "Research environment",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "features": {
-    // =====  Python + Jupyter project =====
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "latest",
-      "installJupyterlab": true
-    },
 
     // ===== Active: shell + tooling personalization =====
     "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {},
