@@ -4,7 +4,9 @@
   "features": {
 
     // ===== Active: shell + tooling personalization =====
-    "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {},
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {
+      "fisher": false
+    },
     "ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {},
     "ghcr.io/guiyomh/features/just:0": {},
 
